@@ -1,8 +1,8 @@
 # project-django-api-throttle-mongo
-A simple project in Django using MongoDB to show API rate limiting by simple throttling process and completely using Mongo as the rate-limiting-backend. It shows a daily rate-limit scenario. There are 3 plans:-
-1.Free - a rate limit of 100 per day.
-2.Gold - a rate limit of 1000 per day.
-3.Platinum - unlimited API calls.
+A simple project in Django using MongoDB to show API rate limiting by simple throttling process and completely using Mongo as the rate-limiting-backend. It shows a daily rate-limit scenario. There are 3 plans:-  
+1.Free - a rate limit of 100 per day.  
+2.Gold - a rate limit of 1000 per day.  
+3.Platinum - unlimited API calls.  
 
 ## This project uses MongoEngine as the MongoDB driver for Django.
 
