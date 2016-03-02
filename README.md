@@ -26,18 +26,18 @@ A simple project in Django using MongoDB to show API rate limiting by simple thr
 	
 	Already registered users can go to the "post" page directly by clicking the "Already registered hyperlink above".
 
-2. You can post the data by going to the URL "http://localhost:8000/post" -- although you would be automatically redirected there when you register	
-	2.1 Here just put the E-Mail ID and password with which you registered and enter the data to be posted. --this is only to show the API so no sessions are created
-	2.2 Click on the "Post" button to post the data.
+2. You can post the data by going to the URL "http://localhost:8000/post" -- although you would be automatically redirected there when you register  	
+	2.1 Here just put the E-Mail ID and password with which you registered and enter the data to be posted. --this is only to show the API so no sessions are created  
+	2.2 Click on the "Post" button to post the data.  
 
 
 
 ---------------------------------SOME OTHER NOTES-------------------------------------
 
-1. This is a very basic implementation to show rate-limiting using django.
-2. This shows rate-limiting on a daily basis and not 24 hrs from the date and time of registration.	
-3. It completely uses Mongo with Django though Mongo is not the most preferred language with Django.
-4. It's only to show basic working so many security flaws like the saved passwords are not hashed ,.etc are not taken into account.
-5. A much better rate-limiting implementation could be done using a Middleware and a faster caching backend like Redis.
-6. No sessions are created since it is only to show API.
-7. There might be some issues/errors/problems and would be rectified by more rigorous testing.
+1. This is a very basic implementation to show rate-limiting using django.  
+2. This shows rate-limiting on a daily basis and not 24 hrs from the date and time of registration.  	
+3. It completely uses Mongo with Django though Mongo is not the most preferred language with Django.  
+4. It's only to show basic working so many security flaws like the saved passwords are not hashed ,.etc are not taken into account.  
+5. A much better rate-limiting implementation could be done using a Middleware and a faster caching backend like Redis.  
+6. No sessions are created since it is only to show API.  
+7. There might be some issues/errors/problems and would be rectified by more rigorous testing.  
