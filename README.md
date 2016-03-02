@@ -18,11 +18,11 @@ A simple project in Django using MongoDB to show API rate limiting by simple thr
 
 -----------------------------------HOW TO USE-----------------------------------------
 
-1. Go to URL "http://localhost:8000"  -- this is the homepage and is used to register new users.
-	1.1 Enter name, id, password and choose the desired plan by clicking it.
-	1.2 Click on "Sign Me Up" button to register a user.
-	1.3 A verification e-mail would be sent to provided E-Mail ID.
-	1.4 Now a new view/page "post" to post data would open. -- you can't post anything without verification
+1. Go to URL "http://localhost:8000"  -- this is the homepage and is used to register new users.  
+	1.1 Enter name, id, password and choose the desired plan by clicking it.  
+	1.2 Click on "Sign Me Up" button to register a user.  
+	1.3 A verification e-mail would be sent to provided E-Mail ID.  
+	1.4 Now a new view/page "post" to post data would open. -- you can't post anything without verification  
 	
 	Already registered users can go to the "post" page directly by clicking the "Already registered hyperlink above".
 
