@@ -11,7 +11,7 @@ A simple project in Django using MongoDB to show API rate limiting by simple thr
 
 1. Clone the project or download the zip.
 2. Install virtual environment for your convenience.
-3. Install the dependencies/requirements using command "pip install < requirements.txt"
+3. Install the dependencies/requirements using command "pip install -r requirements.txt"
 4. Install MongoDB server and start the server.(Preferred Mongo version is v2.6.11)
 5. Now fire up the Django project using command "python manage.py runserver 0.0.0.0:8000"
 
