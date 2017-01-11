@@ -4,7 +4,7 @@ A simple project in Django using MongoDB to show API rate limiting by simple thr
 2.Gold - a rate limit of 1000 per day.  
 3.Platinum - unlimited API calls.  
 
-** This project uses MongoEngine as the MongoDB driver for Django. **
+**This project uses MongoEngine as the MongoDB driver for Django.**
 
 
 ## HOW TO RUN
